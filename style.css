@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Playfair+Display:wght@500&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+body {
+  background-color: #e6f3ff; //#e6faff;
+}
+
+.nav_links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #cce6ff; //#e6eeff
+}
+
+.nav {
+  float: left;
+}
+
+.nav a:hover {
+  background-color: #b3cbff;
+}
+
+.nav a:active {
+  background-color: #6696ff;
+}
+
+.nav a {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 18px;
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  background-color: #cce6ff; //#e6eeff
+}
+
+input[type=text] {
+  font-family: 'Playfair Display', serif;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin: 5px;
+  border: 3px solid #ccddff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+input[type=text]:focus {
+  border: 3px solid #4d88ff;
+}
+
+.welcome {
+  background-color: #e6f3ff;
+  position: relative;
+  text-align: center;
+}
+
+.welcomeText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+}
+
+
+/*.card2 {
+
+  background-color: white;
+  margin-top: 20px;
+  margin-right: 20px;
+  height: 356px;
+}*/
+
+.card {
+  display: flex;
+  background-color: white;
+  margin: 20px;
+}
+
+.title1 {
+  text-align:left;
+  padding-left: 20%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.title2 {
+  text-align: left;
+  top: 50%;
+  left: 50%;
+  padding-left: 15%;
+  padding-top: 30%;
+  padding-bottom: 30%;
+}
+
+.col {
+  background-color: white;
+  width: 25%;
+}
+
+.leftCol {
+  background-color: white;
+  float: left;
+  width: 30%;
+}
+
+/*.rightCol {
+  background-color: white;
+  float: left;
+  width: 70%;
+  //background-color: #f1f1f1;
+  //padding-left: 20px;
+}*/
+
+.myimg {
+  color: white;
+  width:200px;
+  height:200px;
+  margin-left:15%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  object-fit:cover;
+  border-radius:50%;
+}
+
+.resume:link {
+  text-decoration: none;
+  background-color: #ccddff;
+  color: black;
+  text-align: center;
+}
+
+.resume:hover {
+  text-decoration: underline;
+  background-color: #4d88ff;
+  color: black;
+  text-align: center;
+}
+
+.images {
+  margin:5px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  float:left;
+}
+
+h3 {
+  line-height: 34px;
+  letter-spacing: 0.8px;
+}
+
+footer {
+  text-align: center;
+  background-color: #cce6ff;
+  padding: 15px;
+}
+
+#motto {
+  color: white;
+}
