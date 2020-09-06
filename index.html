@@ -1,2 +1,152 @@
-<h1>hello world</h1>
-![634443648993271393](https://user-images.githubusercontent.com/65087831/92184415-c1563400-ee83-11ea-8480-1219422e8d5f.jpg)
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Here is Shusa</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src = "JS.js" type="text/javascript"></script>
+  </head>
+  <body onload="introright()">
+    <header id="top">
+      <nav>
+        <ul class = "nav_links">
+          <li class="nav"><a href="#aboutme">About Me</a></li>
+          <li class="nav"><a href="#resume">Resume</a></li>
+          <li class="nav"><form>
+            <input type = "text" id = "search" name = "search" placeholder="Ask me..."
+            onChange="answer(this)">
+          </form></li>
+          <li class="nav", style="float:right" onClick="contact()"><a href="">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="welcome">
+        <img src = "https://user-images.githubusercontent.com/65087831/92184415-c1563400-ee83-11ea-8480-1219422e8d5f.jpg"
+        alt = "background" style = "width: 100%;">
+        <div class="welcomeText">
+          <h1>Welcome!</h1>
+          <p id = "motto">Be gentle. Be wild.</p>
+        </div>
+      </div>
+
+      <div class="card" id = "intro">
+          <!--<h2 class="aboutMe" style="margin-left: 60px;margin-top:5px;">About Me</h2>-->
+          <div class = "leftCol">
+          <!-- <div class="card1">-->
+              <h1 class="title1" id="aboutme">About Me</h1> <!-- -->
+              <img src = "https://user-images.githubusercontent.com/65087831/92188614-a7225300-ee8f-11ea-8ac8-0b257173cd47.jpg"
+              alt = "myimg" class = "myimg" style="float: left;"id="introleft">
+            <!-- </div>-->
+          </div>
+
+            <!-- <div class="card2"> -->
+              <p style = "padding-left:6%; padding-top:5%; padding-bottom:2%; padding-right:2%;float: left;line-height: 34px;letter-spacing: 0.6px;font-size: 18px;"id="introright">
+                Hi! I'm Shusa, a student who major in computer science in UW and a huge fan of film production.
+                Love music, literature and psychology. Learning Japanese and improving English in progress.
+                Always preparing for a bigger stage.
+                Designing my own webpage is some kind of a challenge I make for myself in order to push
+                my own forward on how to design a webpage. Try to feel struggled and do something special.
+                This is the first web page I design, and it definitely won't be the last one.
+                In addition to web design, Back-end development and software development are both attractive to me. I'm looking
+                forward to work as a developer as I believe I'm not only talented but also hard-working enough. Hope to do some
+                developing work and improve my programming skill. I would definitely cherish every opportunity and do my best!
+              </p> <!--  -->
+            <!-- </div> -->
+      </div>
+
+      <div class = "card" id="job">
+        <div class = "col">
+          <h1 class = "title2">Job Hunting</h1>
+        </div>
+        <div class = "col"> <!-- -->
+          <h2 style="padding-left: 10%;padding-top:15px;">Position</h2>
+          <ul style="margin-top: 10px;margin-bottom: 10px;">
+            <li style="margin-left: 20%;margin-bottom:5px;list-style-type: none;"><em>Software Developer</em></li>
+            <li style="margin-left: 20%;margin-bottom:5px;list-style-type: none;"><em>Front-End Developer</em></li>
+            <li style="margin-left: 20%;margin-bottom:5px;list-style-type: none;"><em>Back-End Developer</em></li>
+            <li style="margin-left: 20%;margin-bottom:5px;list-style-type: none;"><em>QA Analyst</em></li>
+            <li style="margin-left: 20%;list-style-type: none;"><em>UI Designer</em></li>
+          </ul>
+        </div>
+        <div style="background-color: white;width: 30%;">
+          <h2 style="padding-left: 10%;padding-top:15px;">Skill</h2>
+          <ul style="margin-top: 10px;margin-bottom: 10px;">
+            <li style="margin-left: 20%;margin-bottom:5px;">Programming Skills</li>
+              <p style="margin-left:25%;margin-bottom:5px;">C/C++/Python/Java</p>
+            <li style="margin-left: 20%;margin-bottom:5px;">Front-End Skills</li>
+              <p style="margin-left:25%;margin-bottom:5px;">HTML5/CSS/Javascript/PHP/React</p>
+            <li style="margin-left: 20%;margin-bottom:5px;">Other</li>
+              <p style="margin-left:25%;margin-bottom:5px;">Shell Script/SQL</p>
+          </ul>
+        </div>
+        <div style="background-color: white;width: 20%;">
+          <h2 id = "resume" style="padding-left: 10%;padding-top:15px;">Resume</h2>
+          <p style="margin-left:10%;margin-top:10px;">
+            <a class="resume" href="https://github.com/MoCuishleShusa/hello-world/files/5176691/resume_Shuyang_Teng.pdf">
+              Shuyang's Resume</a></p>
+        </div>
+      </div>
+
+      <div class = "card" style="padding-bottom: 20px;padding-left: 20px;" vid="video">
+        <div>
+        <h1 style="text-align:left;padding-left: 20px;padding-top: 20px;margin-bottom: 20px;">Homemade Video</h1>
+        <div style="float:left;margin:5px;margin-left: 10px;">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/h3nqDcA8xOY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <h2 style="float:left; width:50%; padding-left: 30px;line-height: 50px;"><em>Silent Love</em></h2>
+        <div style="padding-top: 40px;float:left; width:50%; padding-left: 30px; ">
+        <p style="line-height: 34px;letter-spacing: 0.5px;font-size: 20px;">It's a public service announcement directed by me and co-worked with my classmates. We intended to give our voice to the society
+          in order to let more fellows to join us on caring more for deaf-mute children, help them to feel be warmly loved and surrounded and
+          make friends with others.</p>
+        </div>
+      </div>
+      </div>
+
+      <div class = "card" style="padding-bottom: 20px;padding-left: 20px;" id ="photography">
+        <div>
+          <h1 style="text-align:left;padding-left: 20px;padding-top: 20px;margin-bottom: 20px;">Photography</h2>
+          <div class="images"><a target="_blank" href="https://user-images.githubusercontent.com/65087831/92293044-17de7380-ef53-11ea-8987-b8eb07c384ab.jpg">
+            <img src="https://user-images.githubusercontent.com/65087831/92293044-17de7380-ef53-11ea-8987-b8eb07c384ab.jpg"
+            width="270" height="115.3">
+          </a></div>
+          <div class="images"><a target="_blank" href="https://user-images.githubusercontent.com/65087831/92293375-ae139900-ef55-11ea-9477-fc0bc3707d0b.jpg">
+            <img src="https://user-images.githubusercontent.com/65087831/92293375-ae139900-ef55-11ea-9477-fc0bc3707d0b.jpg"
+            width="270" height="115.3">
+          </a></div>
+          <div class="images"><a target="_blank" href="https://user-images.githubusercontent.com/65087831/92293385-c08dd280-ef55-11ea-8d88-e2a474b71cf3.jpg">
+            <img src="https://user-images.githubusercontent.com/65087831/92293385-c08dd280-ef55-11ea-8d88-e2a474b71cf3.jpg"
+            width="270" height="115.3">
+          </a></div>
+          <div class="images"><a target="_blank" href="https://user-images.githubusercontent.com/65087831/92293473-73f6c700-ef56-11ea-9c49-60f2a2fea2a6.jpg">
+            <img src="https://user-images.githubusercontent.com/65087831/92293473-73f6c700-ef56-11ea-9c49-60f2a2fea2a6.jpg"
+            width="270" height="115.3">
+          </a></div>
+          <div class="images"><a target="_blank" href="https://user-images.githubusercontent.com/65087831/92293399-cedbee80-ef55-11ea-9c6a-f1a1ec0b082a.jpg">
+            <img src="https://user-images.githubusercontent.com/65087831/92293399-cedbee80-ef55-11ea-9c6a-f1a1ec0b082a.jpg"
+            width="270" height="115.3">
+          </a></div>
+          <div class="images"><a target="_blank" href="https://user-images.githubusercontent.com/65087831/92293394-c683b380-ef55-11ea-8f51-e432df0b2862.jpg">
+            <img src="https://user-images.githubusercontent.com/65087831/92293394-c683b380-ef55-11ea-8f51-e432df0b2862.jpg"
+            width="270" height="115.3">
+          </a></div>
+          <div class="images"><a target="_blank" href="https://user-images.githubusercontent.com/65087831/92293390-c4b9f000-ef55-11ea-8b60-464c464e6457.jpg">
+            <img src="https://user-images.githubusercontent.com/65087831/92293390-c4b9f000-ef55-11ea-8b60-464c464e6457.jpg"
+            width="270" height="115.3">
+          </a></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="footer">
+        <p>Author: Shuyang Teng</p>
+      </br>
+        <p>Contact: shusatsy@gmail.com</p>
+      </br>
+        <p>LinkedIn:
+          <a href="www.linkedin.com/in/Shuyang-Teng-MoCuishle" target="_blank">www.linkedin.com/in/Shuyang-Teng-MoCuishle</a>
+        </p>
+      </br>
+        <p><a href="#top">Back to top</a></p>
+      </div>
+    </footer>
+  </body>
